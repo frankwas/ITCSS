@@ -1,0 +1,35 @@
+/*------ 1.Settings - Global and component settings ------*/
+
+@import "1.settings/settings.global";
+@import "1.settings/settings.colors";
+@import "1.settings/settings.fonts"; 
+
+/*------ 2.Tools - Tools and mixins ------*/
+
+@import "2.tools/tools.mixins";
+
+/*------ 3.Generic - Resets and normalising ------*/
+
+@import "3.generic/generic.normalize";
+@import "3.generic/generic.box-sizing";
+@import "3.generic/generic.reset";
+@import "3.generic/generic.shared";
+
+/*------ 4.Elements - Generic html elements ------*/
+
+@import "4.elements/elements.headings";
+
+/*------ 5.Object - Object html elements ------*/
+
+@import "5.objects/objects.layout";
+@import "5.objects/objects.grid";
+@import "5.objects/objects.media";
+@import "5.objects/objects.wrappers";
+
+/*------ 6.Elements - Components ------*/
+
+@import "6.components/component.card-footer";
+
+/*------ 7.Trumps - Utilities ------*/
+
+@import "7.utilities/utilities.helpers";
